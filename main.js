@@ -15,6 +15,7 @@ login("admin", (err, username) => {
         laporanPenghasilan(username, key);
       })
       .catch((error) => {
+
         console.log("Terjadi kesalahan saat membuat key:", error);
       });
   }
